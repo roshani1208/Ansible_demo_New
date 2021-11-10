@@ -5,7 +5,7 @@
   - name: show all unencrypted IAM status
     shell: aws ec2 describe-volumes --filters Name=encrypted,Values=false
 
-#    shell: aws ec2 describe-images --image-ids ami-00399ec92321828f5 --region u                                                                             s-east-2 --query Images[*].BlockDeviceMappings
+#    shell: aws ec2 describe-images --image-ids ami-00399ec92321828f5 --region us-east-2 --query Images[*].BlockDeviceMappings
 #  - name: fact about AMI
 #    ec2_ami_info:
 #    filters:
